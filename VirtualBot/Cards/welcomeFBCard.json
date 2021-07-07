@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "type": "Image",
+  "title": "USF Capstone Assistant",
+  "images": [
+    {
+      "url": "https://mediad.publicbroadcasting.net/p/wusf/files/styles/x_large/public/201809/usf_brand_9-5-18_3.jpg"
+    }
+  ],
+  "buttons": [
+    {
+      "type": "imBack",
+      "title": "Get Capstone Advice",
+      "value": "Get Capstone Advice"
+    },
+    {
+      "type": "imBack",
+      "title": "Give Capstone Advice",
+      "value": "Give Capstone Advice"
+    },
+    {
+      "type": "imBack",
+      "title": "Recurring Advice",
+      "value": "Recurring Advice"
+    }
+  ]
+    }

@@ -1,0 +1,35 @@
+{
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Here are some things I can do...",
+      "size": "Medium",
+      "horizontalAlignment": "Center"
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Get Capstone Advice",
+          "id": "actionGetAdvice",
+          "data": "I want to get advice for the capstone course."
+        },
+        {
+          "type": "Action.Submit",
+          "title": "Give Capstone Advice",
+          "id": "actionGiveAdvice",
+          "data": "I want to provide advice to the capstone course."
+        },
+        {
+          "type": "Action.Submit",
+          "title": "Get Recurring Capstone Advice",
+          "id": "actionGetRecurringAdvice",
+          "data": "I want to get recurring advice for the capstone course."
+        }
+      ]
+    }
+  ],
+  "type": "AdaptiveCard",
+  "version": "1.0"
+}

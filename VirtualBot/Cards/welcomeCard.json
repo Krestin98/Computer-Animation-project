@@ -1,0 +1,49 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "altText": "USF Logo",
+      "url": "https://scontent.ftpa1-2.fna.fbcdn.net/v/t31.0-8/414632_10151331287820084_988553471_o.jpg?_nc_cat=104&_nc_sid=7aed08&_nc_ohc=bGZEHCdBIrIAX_rhhWz&_nc_ht=scontent.ftpa1-2.fna&oh=f26383a848b247470214b91fcefc0397&oe=5EB17034"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Welcome, I am the USF CSE Capstone Assistant!",
+      "size": "Medium",
+      "weight": "Bolder",
+      "color": "Dark",
+      "horizontalAlignment": "Center"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Here are some things I can do.",
+      "size": "Medium",
+      "horizontalAlignment": "Center"
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Get Capstone Advice",
+          "id": "actionGetAdvice",
+          "data": "I want to get advice for the capstone course."
+        },
+        {
+          "type": "Action.Submit",
+          "title": "Give Capstone Advice",
+          "id": "actionGiveAdvice",
+          "data": "I want to provide advice to the capstone course."
+        },
+        {
+          "type": "Action.Submit",
+          "title": "Get Recurring Capstone Advice",
+          "id": "actionGetRecurringAdvice",
+          "data": "I want to get recurring advice for the capstone course."
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}

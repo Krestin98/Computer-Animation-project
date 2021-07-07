@@ -1,0 +1,22 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "title": "Here are some things I can do...",
+  "buttons": [
+    {
+      "type": "imBack",
+      "title": "Get Capstone Advice",
+      "value": "Get Capstone Advice"
+    },
+    {
+      "type": "imBack",
+      "title": "Give Capstone Advice",
+      "value": "Give Capstone Advice"
+    },
+    {
+      "type": "imBack",
+      "title": "Recurring Advice",
+      "value": "Recurring Advice"
+    }
+  ]
+}
